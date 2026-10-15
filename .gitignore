@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Profiling
+*.prof
+
+# Raw calibration captures: input images for calibrate.py and stereo_calibrate.py.
+# Large PNGs, and only needed if you actually re-run a calibration.
+data/calibration/
+data/stereo_calibration/
+
+# Frames written by the previewer.
+data/images/
